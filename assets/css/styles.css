@@ -1,5 +1,8 @@
 /*===== GOOGLE FONTS =====*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
 /*===== VARIABLES CSS =====*/
 :root {
     --header-height: 3rem;
@@ -275,6 +278,7 @@ img {
 
 .home__name {
     font-size: 60px;
+    font-family: 'Mate SC', serif !important;
 }
 
 .home__greeting,
@@ -296,7 +300,7 @@ img {
     position: absolute;
     left: 65%;
     bottom: 0;
-    top: 15%;
+    top: 23%;
 }
 
 .home__img img {
